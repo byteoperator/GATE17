@@ -1,0 +1,35 @@
+The fundamental unit of "Formal Languages and Authomata Theory" is a SET : a set of characters.
+
+English is a language made from a set of 26 characters, a through z, plus some special punctuation characters and whitespaces.
+
+English is a Set. Every language is a Set. Set of what?
+Set of all possible words in the language. But English is not a formal language.
+
+In Automata theory, we study about Formal languages only. Formal languages are the ones that cab be formally described 
+using mathemtical tools (Set theory).
+E.g. - C, Java, C++, Python, all programming are formal languages. They are well defined in terms of sytax and semantics without ambiguity.
+
+Formal languages are classified into a number  of types based on their power or strength, determined by the number of words present
+in that language. The classification is known as Chomsky Hierarchy of languages, by the name of the person Noam Chomsky.
+
+Word == String == A collection of characters from the underlying Character Set
+
+Q. What is the smallest language possible?
+    A language which has no words at all, or zero words.
+    This language is special. Called as the Null language, Null set, Empty language, etc.
+    Denoted by Φ (phi).
+    It is a formal language for sure, as it can be well defined in terms of an empty / null set.
+    
+Q. What is the largest language possible?
+    An infinite language comprising of all the possible combinations of words from the underlying charset.
+    Can not be enumerated.
+    Has a special notation using Klnee-star (*).
+    If the underlying character set is Σ, then the set of all possible words in the language is denoted by Σ*.
+    
+Q. What is Java?
+    Java is a set.
+    Funny but true answer. No one can disagree with reason.
+    Every formal language is a set.
+    
+    
+    
